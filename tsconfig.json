@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "lib": ["ESNext"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist", "node_modules"]
+}
